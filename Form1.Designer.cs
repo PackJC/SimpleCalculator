@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-<<<<<<< HEAD
             this.ZeroButton = new System.Windows.Forms.Button();
             this.EqualsButton = new System.Windows.Forms.Button();
             this.DecimalButton = new System.Windows.Forms.Button();
@@ -51,35 +50,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.OpAnswer = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
-=======
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
->>>>>>> 063dd949a63aa437f234a4fd2c30e067c6fb6882
+          
+
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-<<<<<<< HEAD
-            // ZeroButton
-            // 
+
             this.ZeroButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ZeroButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ZeroButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
