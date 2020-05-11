@@ -6,3 +6,4 @@ C:\Users\ECHO\SimpleCalculator\bin\Debug\SimpleCalculator.exe
 C:\Users\ECHO\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
 C:\Users\ECHO\SimpleCalculator\obj\Debug\SimpleCalculator.exe
 C:\Users\ECHO\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+C:\Users\ECHO\SimpleCalculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache

@@ -69,7 +69,7 @@
             // 
             // EqualsButton
             // 
-            this.EqualsButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.EqualsButton.BackColor = System.Drawing.Color.Purple;
             this.EqualsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.EqualsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EqualsButton.Location = new System.Drawing.Point(178, 220);
@@ -108,7 +108,7 @@
             // 
             // PlusButton
             // 
-            this.PlusButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.PlusButton.BackColor = System.Drawing.Color.LightGreen;
             this.PlusButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PlusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlusButton.Location = new System.Drawing.Point(261, 220);
@@ -147,7 +147,7 @@
             // 
             // MinusButton
             // 
-            this.MinusButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.MinusButton.BackColor = System.Drawing.Color.LightGreen;
             this.MinusButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.MinusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MinusButton.Location = new System.Drawing.Point(261, 174);
@@ -186,7 +186,7 @@
             // 
             // MultiplyButton
             // 
-            this.MultiplyButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.MultiplyButton.BackColor = System.Drawing.Color.LightGreen;
             this.MultiplyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.MultiplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MultiplyButton.Location = new System.Drawing.Point(261, 128);
@@ -251,7 +251,7 @@
             // 
             // DivideButton
             // 
-            this.DivideButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.DivideButton.BackColor = System.Drawing.Color.LightGreen;
             this.DivideButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.DivideButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DivideButton.Location = new System.Drawing.Point(261, 82);
@@ -294,7 +294,8 @@
             // OpAnswer
             // 
             this.OpAnswer.AutoSize = true;
-            this.OpAnswer.Location = new System.Drawing.Point(113, 14);
+            this.OpAnswer.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OpAnswer.Location = new System.Drawing.Point(153, 14);
             this.OpAnswer.Name = "OpAnswer";
             this.OpAnswer.Size = new System.Drawing.Size(88, 18);
             this.OpAnswer.TabIndex = 1;
@@ -303,7 +304,7 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClearButton.BackColor = System.Drawing.Color.Gold;
             this.ClearButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ClearButton.Location = new System.Drawing.Point(12, 266);
@@ -318,7 +319,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(349, 313);
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.panel2);
@@ -340,7 +341,7 @@
             this.Controls.Add(this.EqualsButton);
             this.Controls.Add(this.ZeroButton);
             this.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "MainForm";

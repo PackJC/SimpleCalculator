@@ -12,6 +12,7 @@ namespace SimpleCalculator
 {
     public partial class MainForm : Form
     {
+        public static List<decimal> input;
         public MainForm()
         {
             InitializeComponent();
@@ -20,10 +21,12 @@ namespace SimpleCalculator
         private void MainForm_Load(object sender, EventArgs e)
         {
             string answer = "";
-            string operation = "Calculator ready!";
+            string operation = "";
 
             OpLabel.Text = operation;
             OpAnswer.Text = answer;
+
+            
 
 
         }
@@ -89,13 +92,13 @@ namespace SimpleCalculator
 
         private void TwoButton_Click(object sender, EventArgs e)
         {
-            OpLabel.Text += 2;
+            OpLabel.Text += 2.0;
 
         }
 
         private void OneButton_Click(object sender, EventArgs e)
         {
-            OpLabel.Text += 1;
+            OpLabel.Text += 1.0;
 
         }
 
@@ -107,22 +110,26 @@ namespace SimpleCalculator
 
         private void ZeroButton_Click(object sender, EventArgs e)
         {
-            OpLabel.Text += 0;
+            OpLabel.Text += 0.0;
 
         }
 
         private void DecimalButton_Click(object sender, EventArgs e)
         {
-            OpLabel.Text += " . ";
+            OpLabel.Text += ".";
 
         }
 
         private void EqualsButton_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
+            DataTable myDataTable = new DataTable();
+
+
             string decypher = OpLabel.Text;
-            float answer = (float)dt.Compute(decypher, "");
+            var answer = myDataTable.Compute(decypher, "");
+
             OpAnswer.Text = answer.ToString();
+
 
         }
 
