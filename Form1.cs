@@ -17,6 +17,7 @@ namespace SimpleCalculator
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void MainForm_Load(object sender, EventArgs e)
         {
             string answer = "";
@@ -129,6 +130,10 @@ namespace SimpleCalculator
         private void PlusButton_Click(object sender, EventArgs e)
         {
             OpLabel.Text += " + ";
+=======
+        private void button9_Click(object sender, EventArgs e)
+        {
+>>>>>>> 063dd949a63aa437f234a4fd2c30e067c6fb6882
 
         }
     }
