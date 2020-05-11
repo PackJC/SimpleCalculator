@@ -28,7 +28,7 @@ namespace SimpleCalculator
 
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void EqualButton_Click(object sender, EventArgs e)
         {
             OpLabel.Text = string.Empty;
             OpAnswer.Text = string.Empty;
@@ -36,7 +36,7 @@ namespace SimpleCalculator
 
         private void NineButton_Click(object sender, EventArgs e)
         {
-            OpLabel.Text += 9;
+            OpLabel.Text += (decimal)9;
 
         }
 
@@ -121,7 +121,7 @@ namespace SimpleCalculator
         {
             DataTable dt = new DataTable();
             string decypher = OpLabel.Text;
-            decimal answer = (decimal)dt.Compute(decypher, null);
+            float answer = (float)dt.Compute(decypher, "");
             OpAnswer.Text = answer.ToString();
 
         }
@@ -129,6 +129,12 @@ namespace SimpleCalculator
         private void PlusButton_Click(object sender, EventArgs e)
         {
             OpLabel.Text += " + ";
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            OpAnswer.Text = "";
+            OpLabel.Text = "";
         }
     }
 }
