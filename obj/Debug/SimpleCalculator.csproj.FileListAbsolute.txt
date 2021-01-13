@@ -11,3 +11,17 @@ C:\Users\ECHO\SimpleCalculator\bin\Debug\SimpleCalculator.exe.manifest
 C:\Users\ECHO\SimpleCalculator\bin\Debug\SimpleCalculator.application
 C:\Users\ECHO\SimpleCalculator\obj\Debug\SimpleCalculator.exe.manifest
 C:\Users\ECHO\SimpleCalculator\obj\Debug\SimpleCalculator.application
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\bin\Debug\SimpleCalculator.exe.manifest
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\bin\Debug\SimpleCalculator.application
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.MainForm.resources
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.exe.manifest
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.application
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\ECHO\Documents\GitHub\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
